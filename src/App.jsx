@@ -9,7 +9,7 @@ function App() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
 
-  // Load and parse CSV data
+  
   useEffect(() => {
     Papa.parse('/india city aqi.csv', {
       download: true,
